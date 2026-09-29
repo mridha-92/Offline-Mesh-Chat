@@ -1,0 +1,6 @@
+{
+  "name": "Offline Mesh Chat",
+  "description": "Local-first, peer-to-peer offline mesh messaging over Bluetooth and Wi-Fi Direct with store-and-forward multi-hop routing and authenticated end-to-end encryption.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

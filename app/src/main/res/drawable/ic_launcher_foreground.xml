@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Main chat bubble outline with rounded corners -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M34,32 C30.686,32 28,34.686 28,38 L28,64 C28,67.314 30.686,70 34,70 L42,70 L42,78 L52,70 L74,70 C77.314,70 80,67.314 80,64 L80,38 C80,34.686 77.314,32 74,32 Z" />
+    
+    <!-- Mesh interconnections inside the bubble -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M38,51 L54,41 L70,51 M54,41 L54,61 M38,51 L54,61 L70,51 M38,51 L70,51" />
+
+    <!-- Mesh Nodes (Circles) -->
+    <!-- Top-center node -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,38 A3,3 0 1,0 54,44 A3,3 0 1,0 54,38 Z" />
+    <!-- Left node -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M38,48 A3,3 0 1,0 38,54 A3,3 0 1,0 38,48 Z" />
+    <!-- Right node -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M70,48 A3,3 0 1,0 70,54 A3,3 0 1,0 70,48 Z" />
+    <!-- Center-bottom node -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M54,58 A3.5,3.5 0 1,0 54,65 A3.5,3.5 0 1,0 54,58 Z" />
+    <!-- Outer radio wave pulses -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#7DD3FC"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M76,28 C80.5,32.5 83,38.5 83,45" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M81,23 C87.5,29.5 91,38 91,47" />
+</vector>
